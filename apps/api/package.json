@@ -1,0 +1,27 @@
+{
+  "name": "@hercules/api",
+  "version": "0.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "tsc -p tsconfig.json --noEmit false",
+    "dev": "tsx watch src/server.ts",
+    "lint": "eslint .",
+    "start": "node dist/server.js",
+    "typecheck": "tsc -p tsconfig.json --noEmit",
+    "test": "vitest run --passWithNoTests",
+    "test:unit": "vitest run --passWithNoTests",
+    "test:integration": "vitest run --passWithNoTests"
+  },
+  "dependencies": {
+    "@hercules/contracts": "workspace:*",
+    "@hercules/db": "workspace:*",
+    "@hercules/domain": "workspace:*",
+    "@hercules/storage": "workspace:*",
+    "@hercules/test-utils": "workspace:*",
+    "@hono/node-server": "^1.19.11",
+    "bcryptjs": "^3.0.3",
+    "hono": "^4.12.9",
+    "zod": "^4.3.6"
+  }
+}

@@ -1,0 +1,30 @@
+# Dependencies
+node_modules/
+.pnpm-store/
+.pnpm-home/
+
+# Build and cache output
+.turbo/
+dist/
+build/
+coverage/
+.next/
+out/
+*.tsbuildinfo
+
+# Test artifacts
+playwright-report/
+test-results/
+.nyc_output/
+
+# Logs
+*.log
+
+# Environment files
+.env
+.env.*
+!.env.example
+
+# OS/editor noise
+.DS_Store
+.eslintcache
