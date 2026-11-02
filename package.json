@@ -23,21 +23,32 @@
     "@types/node": "^25.9.9",
     "@types/react": "^19.3.0",
     "@types/react-dom": "^19.3.0",
-    "eslint": "^10.12.0",
-    "globals": "^17.13.0",
-    "jsdom": "^30.1.2",
-    "playwright": "^1.64.0",
-    "pnpm": "^12.11.2",
+    "eslint": "^10.14.0",
+    "globals": "^17.14.0",
+    "jsdom": "^30.1.3",
+    "playwright": "^1.64.1",
+    "pnpm": "^12.16.1",
     "prettier": "^3.9.10",
     "tsx": "^4.23.15",
-    "turbo": "^2.11.8",
+    "turbo": "^2.11.10",
     "typescript": "^6.0.3",
-    "typescript-eslint": "^8.71.2",
-    "vitest": "^5.0.4"
+    "typescript-eslint": "^8.72.1",
+    "vite": "^8.3.5",
+    "vitest": "5.0.4"
   },
   "pnpm": {
     "overrides": {
-      "esbuild": "^0.28.2"
+      "esbuild": "^0.28.2",
+      "body-parser": "^2.4.0",
+      "fast-uri": "^3.1.9",
+      "undici@<8": "^7.30.1",
+      "undici@>=8 <9": "^8.12.2",
+      "vite": "^8.3.5",
+      "semver@>=7.8.6 <7.9.0": "7.8.5",
+      "baseline-browser-mapping": "2.11.34",
+      "@babel/runtime@>=8.1.0 <9": "8.0.0",
+      "semver@>=6.3.2 <7": "6.3.1",
+      "electron-to-chromium": "1.5.472"
     }
   }
 }
